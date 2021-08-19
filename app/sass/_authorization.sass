@@ -23,6 +23,7 @@
 .authorization
     height: 100vh
     width: 100%
+    overflow-y: scroll
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)) !important
     backdrop-filter: blur(35px)
     &__inner
@@ -69,3 +70,31 @@
         width: auto
         margin: auto 20px
         margin-top: 25%
+
+    .log-in
+        padding-bottom: 30px
+
+    .passportDetails img
+        width: 100% !important
+
+    .passportDetails .btns_helper
+        top: 0 !important
+        right: 0 !important
+        img
+            width: 20px !important
+
+    .passportDetails .btns_helper>div .message_remove
+        right: 0 !important
+        width: 90vw !important
+
+    .message_remove_content .btns
+        flex-wrap: wrap
+        button
+            width: 100%
+            text-align: center
+            display: flex
+            justify-content: center
+            margin: 0
+            margin-bottom: 10px
+            img
+                margin: 0 !important
